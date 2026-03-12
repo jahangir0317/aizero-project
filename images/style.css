@@ -1,0 +1,281 @@
+body{
+margin:0;
+font-family:Arial;
+background:#000;
+color:white;
+}
+
+
+/* header */
+
+header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px 80px;
+}
+
+.logo img{
+height:30px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+background:#111;
+padding:10px 25px;
+border-radius:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#ccc;
+font-size:14px;
+}
+
+nav .active a{
+background:white;
+color:black;
+padding:5px 15px;
+border-radius:20px;
+}
+
+header button{
+border:1px solid #555;
+background:none;
+color:white;
+padding:10px 20px;
+border-radius:25px;
+}
+
+
+/* hero */
+
+.hero{
+
+height:500px;
+
+display:flex;
+align-items:center;
+
+padding-left:80px;
+
+background:
+linear-gradient(120deg,rgba(5,5,46,0.9),rgba(11,26,89,0.9),rgba(12,90,126,0.9)),
+url("Fabricaa 1 (1).png");
+
+background-size:cover;
+background-position:center;
+
+}
+
+.hero h1{
+font-size:120px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:450px;
+color:#ccc;
+line-height:1.5;
+}
+
+.hero a{
+display:inline-block;
+margin-top:20px;
+background:white;
+color:black;
+padding:12px 25px;
+border-radius:25px;
+text-decoration:none;
+}
+
+
+
+/* portfolio */
+
+.portfolio{
+display:flex;
+gap:30px;
+padding:80px;
+background:#020218;
+}
+
+.card{
+flex:1;
+border-radius:20px;
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+
+
+/* grid */
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+padding:0 80px 100px 80px;
+background:#020218;
+}
+
+.item{
+position:relative;
+border-radius:20px;
+overflow:hidden;
+}
+
+.item img{
+width:100%;
+display:block;
+}
+
+.text{
+position:absolute;
+bottom:15px;
+left:20px;
+right:20px;
+display:flex;
+justify-content:space-between;
+font-size:14px;
+}
+
+
+
+/* projects */
+
+.projects{
+width:90%;
+margin:auto;
+padding:40px 0;
+}
+
+.two-cards{
+display:flex;
+gap:40px;
+margin-bottom:60px;
+}
+
+.p-card img{
+width:100%;
+border-radius:20px;
+}
+
+.info{
+display:flex;
+justify-content:space-between;
+margin-top:10px;
+font-size:14px;
+}
+
+
+
+/* CTA */
+
+.cta{
+background:linear-gradient(135deg,#1c2cff,#2fd4ff);
+padding:60px 40px;
+border-radius:20px;
+text-align:center;
+}
+
+.cta h1{
+font-size:42px;
+}
+
+.cta p{
+max-width:600px;
+margin:auto;
+margin-top:20px;
+margin-bottom:30px;
+}
+
+.btns{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.blue{
+background:#00c6ff;
+padding:12px 25px;
+border-radius:30px;
+}
+
+.outline{
+border:1px solid white;
+padding:12px 25px;
+border-radius:30px;
+}
+
+
+
+/* footer */
+
+footer{
+padding:60px 80px;
+position:relative;
+}
+
+.top{
+display:flex;
+justify-content:space-between;
+margin-bottom:40px;
+}
+
+.left img{
+width:260px;
+border-radius:15px;
+}
+
+.left p{
+color:#bbb;
+font-size:14px;
+}
+
+.left a{
+color:white;
+text-decoration:underline;
+}
+
+.right{
+display:flex;
+gap:100px;
+}
+
+.right ul{
+list-style:none;
+padding:0;
+}
+
+.right li{
+margin-bottom:10px;
+font-size:18px;
+}
+
+hr{
+border:0;
+border-top:1px solid #222;
+margin:30px 0;
+}
+
+.bottom{
+display:flex;
+justify-content:space-between;
+color:#aaa;
+font-size:14px;
+}
+
+.big{
+position:absolute;
+bottom:-40px;
+left:0;
+font-size:220px;
+color:rgba(255,255,255,0.05);
+}
